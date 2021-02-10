@@ -1,0 +1,38 @@
+body {
+    background-color: #30a7bc;
+    color: #f9f9f9;
+    font-size: 16px;
+}
+
+a {
+    color: #f9f9f9;
+    text-decoration: none;
+    border-bottom: 1px solid #f9f9f9;
+    transition-duration: 300ms;
+}
+
+a:hover {
+    color: #fad65a;
+    border-color: #fad65a;
+}
+
+.main-list {
+    padding: 40px;
+}
+
+.main-list__item {
+    font-family: Cambria, serif;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 0.05em;
+}
+
+.second-list {
+    margin: 15px 10px;
+}
+
+.second-list__item {
+    font-family: Calibri, sans-serif;
+    letter-spacing: 0.02em;
+    font-size: 18px;
+}

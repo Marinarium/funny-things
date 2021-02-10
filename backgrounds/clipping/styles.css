@@ -1,0 +1,30 @@
+.bg {
+    height: 100%;
+    width: 100%;
+    background-color: #2998fd;
+    clip-path: polygon(100% 0, 100% 43%, 59% 61%, 0 87%, 0 0);
+    position: absolute;
+    z-index: -1;
+}
+
+/*Additions*/
+.bg {
+    display: flex;
+    align-items: center;
+}
+
+a {
+    color: #f9f9f9;
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    padding-left: 50px;
+    display: block;
+    transition-duration: 300ms;
+}
+
+a:hover {
+    text-decoration: underline;
+}
