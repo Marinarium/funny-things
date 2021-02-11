@@ -7,7 +7,7 @@ body {
 a {
     color: #f9f9f9;
     text-decoration: none;
-    border-bottom: 1px solid #f9f9f9;
+    border-bottom: 1px solid transparent;
     transition-duration: 300ms;
 }
 
@@ -35,4 +35,5 @@ a:hover {
     font-family: Calibri, sans-serif;
     letter-spacing: 0.02em;
     font-size: 18px;
+    margin-bottom: 10px;
 }
