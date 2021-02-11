@@ -39,8 +39,8 @@
 }
 
 .container span:hover:before {
-    width: 800%;
-    height: 800%;
+    width: 900%;
+    height: 900%;
     transition: 0s;
     opacity: 1;
 }
